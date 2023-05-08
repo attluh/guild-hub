@@ -1,0 +1,64 @@
+<html>
+    <head>
+        <title>Avalon</title>
+        <link rel="icon" type="image/x-icon" href="https://wow.zamimg.com/images/wow/icons/large/ui_hordeicon.jpg">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://cdn.tailwindcss.com"></script>
+        <script>
+            tailwind.config = {
+                theme: {
+                    extend: {
+                        colors: {
+                            clifford: '#da373d',
+                        }
+                    }
+                }
+            }
+        </script>
+    </head>
+    <body class="container mx-auto px-4 bg-zinc-800">
+        <nav class="relative flex w-full flex-wrap items-center justify-between bg-neutral-900 py-2 text-neutral-500 shadow-lg hover:text-neutral-700 focus:text-neutral-700 lg:py-4">
+            <div class="flex w-full flex-wrap items-center justify-between px-3">
+                <div>
+                    <a class="text-xl text-neutral-800 dark:text-neutral-200" href="#">Avalon</a>
+                </div>
+            </div>
+        </nav>
+
+        <embed style="width:inherit" src="https://raider.io/widgets/boss-progress?raid=latest&name_style=logo&difficulty=latest&region=us&realm=maelstrom&guild=Avalon&boss=latest&period=all&orientation=horizontal&hide=&chromargb=transparent&theme=dragonflight">
+
+        <div class="text-white mt-10">
+            <h2 class="mb-5 mt-0 text-4xl font-medium leading-tight text-primary">Aberrus Raid Plans</h2>
+            <div class="flex justify-between">
+                <div class="basis-1/4">
+                    <span class="mb-5 mt-0 text-2xl font-medium leading-tight text-primary">Quick Guides</span>
+                    <ul class="list-disc list-inside text-purple-600">
+                        <li><a href="https://raidplan.io/plan/UOMelvGi6dCITMft" target="_blank">Kazzara</a></li>
+                        <li><a href="https://raidplan.io/plan/dPpw4JHi4PVn0MLw" target="_blank">Amalgamation Chamber</a></li>
+                        <li><a href="https://raidplan.io/plan/3HoXIsXB3sRmnBMS" target="_blank">Forgotten Experiments</a></li>
+                        <li><a href="https://raidplan.io/plan/ZgjCr2hJxWwgLPfF" target="_blank">Assault on the Zaqali</a></li>
+                        <li><a href="https://raidplan.io/plan/hrZMmmc-yUuX79OQ" target="_blank">Rashok</a></li>
+                        <li><a href="https://raidplan.io/plan/ZgjCr2hJxWwgLPfF" target="_blank">Zkarn</a></li>
+                        <li><a href="https://raidplan.io/plan/prAEGbWvhgNcRlRl" target="_blank">Magmorax</a></li>
+                        <li><a href="https://raidplan.io/plan/cOuBArXsa7MHO6Lr" target="_blank">Echo of Neltharion</a></li>
+                        <li>Scalecommander Sarkareth (Guide TBD)</li>
+                    </ul>
+                </div>
+
+                <div>
+                    <span class="mb-5 mt-0 text-2xl font-medium leading-tight text-primary">Ready Check Pull - Video Guides</span>
+                    <iframe
+                        width="560"
+                        height="315"
+                        src="https://www.youtube.com/embed/videoseries?list=PLhx6nABtx9XMaIK17auNlAJZSslX1BpOQ"
+                        title="Ready Check Pull Video Guides"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                        allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </body>
+    </html>
